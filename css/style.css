@@ -1,0 +1,242 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* main home page css */
+
+/* header section */
+/* menu section css */
+.header-section{
+    width: 100%;
+    background: url("../img/ms-bg.png") center top no-repeat;
+    background-size: cover;
+}
+.header-section .menu{
+    width: 100%;
+}
+.header-section .menu .bg-light{
+    background: transparent !important;
+}
+.header-section .menu .navbar-light .navbar-nav .active>.nav-link {
+    color: #5a6e79;
+    font-size: 16px;
+    line-height: 26px;
+    color: #5a6e79;
+    font-weight: 500;
+}
+.header-section .menu .navbar-light .navbar-nav .nav-link{
+    padding-bottom: 10px;
+    color: #5a6e79;
+    font-size: 16px;
+    line-height: 26px;
+    color: #5a6e79;
+    font-weight: 500;
+    margin-right: 20px;
+    border-bottom: 2px solid transparent;
+}
+.header-section .menu .navbar-light .navbar-nav .nav-link:focus, .header-section .menu .navbar-light .navbar-nav .nav-link:hover{
+    color: #ffc178;
+    border-bottom: 2px solid #ffc178;
+}
+.header-section .menu .btn-info {
+    padding: 10px 37px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #ffc178;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    transition: 1s ease-in-out;
+}
+.header-section .menu .btn-info:focus, .header-section .menu .btn-info:hover{
+    color: #fff;
+    background: #ffc178;
+    border-radius: 30px;
+    border: 1px solid #ffc178;
+}
+/* banner section css */
+.header-section .banner{
+    width: 100%;
+    padding: 26px 0px 300px;
+}
+.header-section .banner .banner-inner{
+    width: 100%;
+    padding: 40px 0px;
+}
+.header-section .banner .banner-inner h2{
+    font-size: 40px;
+    color: rgb(255, 193, 120);
+    font-weight: 700;
+    line-height: 50px;
+}
+.header-section .banner .banner-inner p{
+    font-size: 18px;
+    color: rgb(90, 110, 121);
+    line-height: 28px;
+}
+.header-section .banner .banner-inner .btn-info{
+    padding: 9px 35px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+    border-radius: 29px;
+    background-color: rgb(255, 193, 120);
+    border: 1px solid rgb(255, 193, 120);
+    transition: 1s ease-in-out;
+}
+.header-section .banner .banner-inner .btn-info:focus, .header-section .banner .banner-inner .btn-info:hover{
+    color: rgb(255, 193, 120);
+    background-color: transparent;
+    border: 1px solid rgb(255, 193, 120);
+}
+/* feature section css */
+.feature-section{
+    width: 100%;
+}
+.feature-section .text-area{
+    text-align: center;
+}
+.feature-section .text-area h2{
+    font-size: 40px;
+    color: rgb(37, 44, 58);
+    font-weight: 700;
+    line-height: 50px;
+}
+.feature-section .text-area p{
+    font-size: 16px;
+    color: rgb(90, 110, 121);
+    line-height: 26px;
+    font-weight: 400;
+    margin: 19px 0px 30px;
+}
+.feature-section .feature-inner{
+    width: 100%;
+    padding: 0px 0px 50px;
+    text-align: center;
+}
+.feature-section .bg-1{
+    background: #f9703a;
+}
+.feature-section .bg-2{
+    background: #80be41;
+}
+.feature-section .bg-3{
+    background: #ffb157;
+}
+.feature-section .feature-inner h4{
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    line-height: 37px
+}
+/* limitless section css */
+.limitless-section{
+    width: 100%;
+    padding: 50px 0px;
+}
+.limitless-section .inner-img{
+    width: 100%;
+    text-align: left;
+}
+.limitless-section .inner-img .img{
+    /* margin-left: -119px; */
+    max-width: 100%;
+    height: auto;
+}
+.limitless-section .limitless-inner{
+    text-align: left;
+    padding-left: 33px;
+}
+.limitless-section .limitless-inner h1{
+    font-size: 40px;
+    color: rgb(37, 44, 58);
+    font-weight: bold;
+    line-height: 50px;
+}
+.limitless-section .limitless-inner p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(90, 110, 121);
+    line-height: 28px;
+}
+.student{
+    width: 100%;
+    padding: 40px 0px 40px 33px;
+    color: #ffc958;
+}
+.student h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.student p{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: -14px;
+}
+.courses{
+    width: 100%;
+    padding: 40px 0px 40px 33px;
+    color: #ff5f72;
+}
+.courses h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.courses p{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: -14px;
+}
+.hours-video{
+    width: 100%;
+    padding: 40px 0px 40px 33px;
+    color: #43cb83;
+}
+.hours-video h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.hours-video p{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: -14px;
+}
+/* university section css */
+.university{
+    width: 100%;
+    padding: 50px 0px;
+}
+.university .text{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.university .text h2{
+    font-size: 40px;
+    color: rgb(37, 44, 58);
+    font-weight: 700;
+    line-height: 50px;
+}
+.university .card {
+    background: #fff;
+    box-shadow: 4px 7px 10px #adadad;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
